@@ -1,0 +1,55 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+    --mobileBreakpoint: 375px;
+    --desktopBreakpoint: 1440px;
+    font-family: Outfit;
+    font-weight: 400;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+p {
+    font-size: 15px;
+}
+body{
+    height: 100vh;
+}
+
+.attribution {
+    background-color: var(--Lightgray);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: var(--White);
+    width: 320px;
+    border-radius: 15px;
+
+}
+
+.container img {
+    width: 280px;
+    margin: 20px;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+
+figcaption{
+    margin : 20px;
+}
+
+figcaption p{
+    color :var(--Darkblue)
+}
+
+@media only screen and (max-width:375px) {
+    
+}
